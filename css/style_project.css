@@ -54,7 +54,17 @@ body {
     "header"
     "main"
     "footer" ;
-    
+}
+
+@media (max-width: 915px) and (orientation: landscape)
+ {
+    .wrapper {
+        grid-template: minmax(100px, auto) 1fr minmax(225px, auto) / 1fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer" ;
+    }
 }
 
 /* ------header------ */
